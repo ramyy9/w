@@ -1,2 +1,1 @@
-# w
-ICS3 Website
+# https://ramyy9.github.io/w/
