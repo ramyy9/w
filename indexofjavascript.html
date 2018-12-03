@@ -1,8 +1,50 @@
   <!DOCTYPE html>
   <html>
   <head>
+    <title>
+      Calculator
+    </title>
+    <h1>My First Calculator</h1>
+    <ul>
+    <li>Sum means addition</li>
+    <li>Reset means subtraction</li>
+    <li>Mult means multiply</li>
+    <li>Div means divide</li>
       <script type="text/javascript">
-      </script>
+        
+        var a,b, result;
+        function setValues()
+        {
+
+          a = Number(document.getElementById("a").value);
+          b = Number(document.getElementById("b").value);
+          }
+          function sum()
+          {
+            setValues();
+            result = a+b;
+            alert("The sum is equals to"+result)
+          }
+           function rest()
+          {
+            setValues();
+            result = a-b;
+            alert("The rest is equals to"+result)
+          }
+           function mult()
+          {
+            setValues();
+            result = a*b;
+            alert("The operation is equals to"+result)
+          }
+           function div()
+          {
+            setValues();
+            result = a/b;
+            alert("The operation is equals to"+result)
+          }
+        
+</script>
     </head>
     <body>
       <div>
@@ -13,6 +55,8 @@
         <input type="button" onclick="mult()" value="multiply"/>
         <input type="button" onclick="div()" value="divide"/>
 
+
+      
       </div>
     </body>
     </html>
