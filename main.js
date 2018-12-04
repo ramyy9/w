@@ -11,7 +11,10 @@ function sayhello(){
 
 		alert("that's not my name");
 	}
+	else if{
+		greeting = Hello have a good day today  
 
+	}
 
 }
 
