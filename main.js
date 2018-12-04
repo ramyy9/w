@@ -11,7 +11,9 @@ function sayhello(){
 
 		alert("that's not my name");
 	}
-
+else if (time < 20) {
+    greeting = "Good day";
+}
 
 }
 
