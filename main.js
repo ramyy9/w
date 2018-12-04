@@ -4,7 +4,7 @@ function sayhello(){
 	var username= prompt("what's your name?");
 
 
-	if(username=="username"){
+	if(username=="ramila"){
 		alert("hello " + username);
 	}
 	else{
