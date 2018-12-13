@@ -10,6 +10,8 @@ function sayhello(){
 	else{
 
 		alert("that's not my name");
+	else if
+
 	}
 
 }
